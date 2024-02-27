@@ -10,7 +10,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Nabin Islam',
+  title: 'Nabin Islam | Front-end Developer',
   description: 'Front-end Developer from Bangladesh',
 };
 
