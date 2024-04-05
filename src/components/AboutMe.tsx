@@ -92,7 +92,7 @@ const AboutMe = () => {
 
             {/* resume button */}
             <a
-              href="https://drive.google.com/file/d/1Z3yJnF-QMw8tNx6pTBJZTnf1aQbm8bND/view?usp=sharing"
+              href="https://drive.google.com/file/d/1j2DoA-Afj6WF_b-d5qs4etK4xuX3v0Y2/view?usp=sharing"
               target="_blank"
             >
               <button className="relative inline-block text-lg group mt-5">
