@@ -47,13 +47,15 @@ const ProjectCard = ({ project }: projectCardProps) => {
         >
           Client
         </a>
-        <a
-          className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer hover:bg-slate-800 hover:text-white duration-200 border"
-          href={project.serverLink}
-          target="_blank"
-        >
-          Server
-        </a>
+        {project.serverLink != '' && (
+          <a
+            className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer hover:bg-slate-800 hover:text-white duration-200 border"
+            href={project.serverLink}
+            target="_blank"
+          >
+            Server
+          </a>
+        )}
       </div>
     </div>
   );

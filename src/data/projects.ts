@@ -32,4 +32,13 @@ export const projects: {
     serverLink:
       'https://github.com/NabinIslam/coder-squad-task-management-server',
   },
+  {
+    imageSrc: '/calendly.png',
+    projectTitle: 'Calendly Landing Page',
+    techUsed: 'React.js, Tailwind CSS',
+    liveLink: 'https://calendly-bcf3e.web.app/',
+    clientLink:
+      'https://github.com/NabinIslam/canlendly-landing-page-react-tailwind',
+    serverLink: '',
+  },
 ];
